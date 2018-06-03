@@ -1,0 +1,87 @@
+
+footer
+  height: 45px
+  display: flex
+  color: #fff
+  background #000
+  line-height: 45px
+  .foot-area
+    flex-grow: 1
+    &.money
+      padding-left: 10px
+      color: red
+      .money-des
+        font-size: 12px
+        padding-right: 10px
+        color: #fff
+    &.peisong
+      font-style: italic
+      color: gray
+      font-size: 14px
+    &.goods-submit
+      height: 45px
+      padding: 0 10px
+      background: #999
+      color: #fff
+      &.goods-submit-active
+        background: #008000
+
+.goods-list
+  height: calc(100vh - 90px)
+  overflow: hidden
+  .goodLi
+    padding: 10px 0
+    border-bottom: 1px solid black
+    &:first-of-type
+      border-top: 1px solid black
+    &:last-of-type
+      border-bottom: none
+    &:after
+      content: ""
+      display: block
+      clear: both
+    .left-img
+      float: left;
+      width: 40%
+      img
+        width: 100%
+    .right-description
+      padding-top: 40px
+      float: left
+      width: 60%
+      .good-name
+        margin-bottom: 5px
+      .good-des
+        font-size: 12px
+        font-style: italic
+      .num-click
+        overflow: hidden
+        padding-top: 10px
+        .good-price
+          color: #b4282d
+          display: inline-block
+          float: left
+        .click-area
+          float: right
+          .click-icon
+            display: inline-block
+            width: 25px
+            height: 25px
+            text-align: center
+            line-height: 20px
+            border-radius: 50%
+            cursor: pointer
+            border: 1px solid #2bbbd4
+            color: #fff
+            background: #2bbbd4
+            &.goods-disable
+              background: #ddd
+              border-color: #ddd
+              cursor: not-allowed
+
+          .good-num
+            width: 20px
+            text-align: center
+            font-size: 16px
+            outline: none
+            border: 0
