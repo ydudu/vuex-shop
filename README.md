@@ -1,7 +1,7 @@
 # vue-shop
 
 > A Vue.js project
-https://ydudu.github.io/vuex-shop/dist
+https://ydudu.github.io/vuex-shop/dist/index.html
 ## Build Setup
 
 ``` bash
