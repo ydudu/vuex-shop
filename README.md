@@ -1,7 +1,7 @@
 # vue-shop
 
 > A Vue.js project
-<a href="https://ydudu.github.io/vuex-shop/dist/index.html">点我</a>
+<a href="https://ydudu.github.io/vuex-shop/dist/index.html" target="_blank">进来瞧瞧</a>
 
 ## Build Setup
 
