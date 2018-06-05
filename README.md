@@ -1,7 +1,7 @@
-# vue-shop
+# vuex-shop
 
 > A Vue.js project
-之前一直没有弄清楚vux，果然还是实践让人理解快 (｀・ω・´)
+之前一直没有弄清楚vuex，果然还是实践让人理解快 (｀・ω・´)
 <a href="https://ydudu.github.io/vuex-shop/dist/index.html" target="_blank">进来瞧瞧</a>
 
 ## Build Setup
